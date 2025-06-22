@@ -28,11 +28,10 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
-  build:
+  # Build job  build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.146.0
+      HUGO_VERSION: 0.147.8
     steps:
       - name: Install Hugo CLI
         run: |
