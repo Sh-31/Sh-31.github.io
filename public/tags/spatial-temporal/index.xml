@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spatial-Temporal on Sherif Ahmed</title>
-    <link>http://localhost:1313/tags/spatial-temporal/</link>
+    <link>https://sh-31.github.io/tags/spatial-temporal/</link>
     <description>Recent content in Spatial-Temporal on Sherif Ahmed</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spatial-temporal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sh-31.github.io/tags/spatial-temporal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Group Activity Recognition</title>
-      <link>http://localhost:1313/projects/group-activity-recognition/</link>
+      <link>https://sh-31.github.io/projects/group-activity-recognition/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/group-activity-recognition/</guid>
+      <guid>https://sh-31.github.io/projects/group-activity-recognition/</guid>
       <description>A modern implementation implemented a Hierarchical Deep Temporal Model for Group Activity Recognition, based on the CVPR 2016 paper. Achieved 93% accuracy using a two-stage LSTM architecture to recognize multi-person activities. Conducted ablation studies to evaluate the contributions of various model components and compared performance against 8 baseline models.</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Torch on Sherif Ahmed</title>
-    <link>http://localhost:1313/tags/torch/</link>
+    <link>https://sh-31.github.io/tags/torch/</link>
     <description>Recent content in Torch on Sherif Ahmed</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/torch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sh-31.github.io/tags/torch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Group Activity Recognition</title>
-      <link>http://localhost:1313/projects/group-activity-recognition/</link>
+      <link>https://sh-31.github.io/projects/group-activity-recognition/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/group-activity-recognition/</guid>
+      <guid>https://sh-31.github.io/projects/group-activity-recognition/</guid>
       <description>A modern implementation implemented a Hierarchical Deep Temporal Model for Group Activity Recognition, based on the CVPR 2016 paper. Achieved 93% accuracy using a two-stage LSTM architecture to recognize multi-person activities. Conducted ablation studies to evaluate the contributions of various model components and compared performance against 8 baseline models.</description>
     </item>
     <item>
       <title>ImgCap</title>
-      <link>http://localhost:1313/projects/imacap/</link>
+      <link>https://sh-31.github.io/projects/imacap/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/imacap/</guid>
+      <guid>https://sh-31.github.io/projects/imacap/</guid>
       <description>ImgCap is an image captioning model designed to automatically generate descriptive captions for images. It has two versions one based on a CNN-LSTM architecture, and the other an enhanced version that integrates a CNN-LSTM with an Attention mechanism. To further enhance the quality and coherence of generated captions, beam search is implemented during the inference stage.</description>
     </item>
     <item>
       <title>Tennis Analysis System</title>
-      <link>http://localhost:1313/projects/tennis-analysis-system/</link>
+      <link>https://sh-31.github.io/projects/tennis-analysis-system/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tennis-analysis-system/</guid>
+      <guid>https://sh-31.github.io/projects/tennis-analysis-system/</guid>
       <description>Tennis-Analysis-System is a system that analyzes tennis matches and provides player statistics and mini court visualizations.</description>
     </item>
   </channel>
