@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Voting-Cls on Sherif Ahmed</title>
-    <link>https://sh-31.github.io/tags/voting-cls/</link>
+    <link>http://localhost:1313/tags/voting-cls/</link>
     <description>Recent content in Voting-Cls on Sherif Ahmed</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sh-31.github.io/tags/voting-cls/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/voting-cls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Credit Card Fraud Detection</title>
-      <link>https://sh-31.github.io/projects/credit-card-fraud-detection/</link>
+      <link>http://localhost:1313/projects/credit-card-fraud-detection/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://sh-31.github.io/projects/credit-card-fraud-detection/</guid>
+      <guid>http://localhost:1313/projects/credit-card-fraud-detection/</guid>
       <description>Credit card fraud detection project using a highly unbalanced Kaggle dataset of 284,807 transactions with only 492 frauds. To address the imbalance the project implements a voting classifier and a neural network with focal loss in PyTorch achieving an F1 score of 86% and a PR AUC of 85%</description>
     </item>
   </channel>

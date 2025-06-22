@@ -1,4 +1,4 @@
-baseURL: "https://sh-31.github.io"
+baseURL: "https://Sh-31.github.io"
 title: "Sherif Ahmed"
 languageCode: en-us
 theme: ["PaperMod"]
@@ -18,11 +18,11 @@ minify:
 
 params:
   env: production
-  title: "Sherif Ahmed - Portfolio"
-  description: "Machine Learning Engineer Portfolio"
+  title: "Sherif Ahmed - ML Engineer"
+  description: "HI👋 I’m Sherif Ahmed, a Machine Learning Engineer with a degree in Computer Science with a strong background in AI, deep learning, NLP and Computer Vision. I’m passionate about building intelligent systems that solve real-world problems."
   keywords: [Portfolio, Machine Learning, Data Science, AI, Python, Deep Learning]
   author: "Sherif Ahmed"
-  DateFormat: "January 2, 2006"
+  DateFormat: "January 2, 2025"
   defaultTheme: dark
   disableThemeToggle: true
 
@@ -88,10 +88,15 @@ menu:
       url: /blogs/
       weight: 30  
 
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40  
+
     - identifier: about
       name: About Me
       url: /about/
-      weight: 40
+      weight: 50
   
 markup:
   highlight:

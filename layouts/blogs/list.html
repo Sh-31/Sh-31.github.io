@@ -40,7 +40,7 @@
           {{- if .Params.tags }}
           <div class="entry-tags">
             {{- range .Params.tags }}
-            <a href="/tags/{{ . | urlize }}/" class="tag-link">#{{ . }}</a>
+            <a href="/tags/{{ . | urlize }}/" class="tag-link">{{ . }}</a>
             {{- end }}
           </div>
           {{- end }}
