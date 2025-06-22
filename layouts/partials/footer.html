@@ -1,0 +1,325 @@
+{{- if (not site.Params.disableScrollToTop) }}
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+{{- end }}
+
+{{- partial "extend_footer.html" . }}
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+
+{{- if (not site.Params.disableScrollToTop) }}
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+{{- end }}
+
+{{- if (not site.Params.disableThemeToggle) }}
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+{{- end }}
+
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+
+        function copyingDone() {
+            copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
+            setTimeout(() => {
+                copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            // td containing LineNos
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            // code blocks not having highlight as parent class
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+{{- end }}
+
+<style>
+    .terminal-line-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .terminal-line {
+        font-family: monospace;
+        background-color: #212121;
+        padding: 15px;
+        border-radius: 5px;
+        color: #fafafa;
+        display: flex;
+        align-items: center;
+        min-width: 300px;
+    }
+
+    .terminal-cursor {
+        display: inline-block;
+        width: 8px;
+        height: 1.2em;
+        background-color: #fafafa;
+        animation: blink 1s step-end infinite;
+        margin-left: 4px;
+    }
+
+    @keyframes blink {
+        from,
+        to {
+            background-color: transparent;
+        }
+
+        50% {
+            background-color: #fafafa;
+        }
+    }    .header-terminal {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 6px 12px;
+        color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        align-items: center;
+        font-size: 0.95rem;
+        margin-right: 16px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        letter-spacing: -0.5px;
+    }
+
+    .header-terminal:hover {
+        transform: translateY(-1px);
+        opacity: 0.8;
+    }
+
+    .header-terminal-text {
+        white-space: nowrap;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .header-terminal-cursor {
+        display: inline-block;
+        width: 8px;
+        height: 1.2em;
+        background-color: rgba(255, 255, 255, 0.9);
+        animation: blink 0.8s step-end infinite;
+        margin-left: 4px;
+        opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+        .header-terminal {
+            font-size: 0.85rem;
+            padding: 4px 8px;
+        }
+    }.footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0.00rem 1;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .copyright {
+        color: var(--secondary);
+        font-size: 0.9rem;
+    }    .author {
+        color: var(--primary);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* Profile image styling */
+    .entry-content .profile-mode-image img {
+        border-radius: 50%;
+        object-fit: cover;
+        aspect-ratio: 1;
+        border: 3px solid var(--primary);
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .entry-content .profile-mode-image img:hover {
+        transform: scale(1.05);
+        border-color: var(--secondary);
+    }
+</style>
+
+<script>
+    (function() {
+        const textToType = 'cd /home/about';
+        const targetElement = document.getElementById('terminal-text');
+        if (!targetElement) return;
+
+        let charIndex = 0;
+
+        function typeEffect() {
+            if (charIndex < textToType.length) {
+                targetElement.textContent += textToType.charAt(charIndex);
+                charIndex++;
+                setTimeout(typeEffect, 120);
+            } else {
+                const cursor = document.querySelector('.terminal-cursor');
+                if(cursor) {
+                    cursor.style.animation = 'none';
+                    cursor.style.backgroundColor = '#fafafa';
+                }
+            }
+        }
+        
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setTimeout(typeEffect, 500);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        const terminalLine = document.querySelector('.terminal-line');
+        if (terminalLine) {
+            observer.observe(terminalLine);
+        }
+    })();
+
+    function updateTerminalPath() {
+        const currentPath = window.location.pathname;
+        let terminalPath = '> cd';
+        
+        if (currentPath === '/') {
+            terminalPath += ' /home';
+        } else if (currentPath.endsWith('/')) {
+            terminalPath += ' /home' + currentPath.slice(0, -1);
+        } else {
+            terminalPath += ' /home' + currentPath;
+        }        const headerTerminal = document.querySelector('.header-terminal-text');
+        if (headerTerminal) {
+            let charIndex = 0;
+            headerTerminal.textContent = '> ';
+            
+            function typeHeaderEffect() {
+                if (charIndex < terminalPath.length) {
+                    headerTerminal.textContent = terminalPath.substring(0, charIndex + 1);
+                    charIndex++;
+                    setTimeout(typeHeaderEffect, 35); // Made animation faster
+                }
+            }
+            
+            typeHeaderEffect();
+        }
+
+        // Update footer terminal
+        const footerTerminal = document.getElementById('terminal-text');
+        if (footerTerminal) {
+            footerTerminal.textContent = '';
+            let footerCharIndex = 0;
+            
+            function typeFooterEffect() {
+                if (footerCharIndex < terminalPath.length) {
+                    footerTerminal.textContent = terminalPath.substring(0, footerCharIndex + 1);
+                    footerCharIndex++;
+                    setTimeout(typeFooterEffect, 120);
+                }
+            }
+            
+            setTimeout(typeFooterEffect, 500);
+        }
+    }
+
+    // Run on initial page load
+    document.addEventListener('DOMContentLoaded', updateTerminalPath);
+
+    // Update terminal on navigation
+    window.addEventListener('popstate', updateTerminalPath);
+</script>
+
+{{- if not (.Param "hideFooter") }}
+<footer class="footer">
+    <div class="footer-content">
+        <div class="copyright">© {{ now.Format "2006" }}</div>  <div class="author">Sherif Ahmed</div>
+    </div>
+</footer>
+{{- end }}

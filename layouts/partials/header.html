@@ -1,0 +1,31 @@
+
+
+<header class="header" style="position: sticky; top: 0; z-index: 100; background: var(--theme); box-shadow: 0 2px 4px rgba(0,0,0,0.01);">
+    <nav class="nav">        <div class="logo">
+            <a href="{{ "/" | absLangURL }}" class="header-terminal">
+                <span class="header-terminal-text"></span>
+                <span class="header-terminal-cursor"></span>
+            </a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        {{- $currentPage := . }}
+        <ul id="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            <li>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        {{- .Pre }}
+                        {{- .Name -}}
+                        {{ .Post -}}
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

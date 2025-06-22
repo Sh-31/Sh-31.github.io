@@ -1,0 +1,55 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<div class="posts-grid">
+  {{- range .Pages }}
+  <article class="post-entry tag-card">
+    <div class="post-card-content">
+      {{- if .Params.cover.image }}
+      <div class="entry-cover">
+        <img src="{{ .Params.cover.image | absURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy"/>
+      </div>
+      {{- end }}
+      <header class="entry-header">
+        <h2 class="entry-title">{{ .Title }}</h2>
+      </header>
+      {{- if .Description }}
+      <div class="entry-content">
+        <p>{{ .Description }}</p>
+      </div>
+      {{- end }}
+      <footer class="entry-footer">
+        <div class="entry-meta">
+          <span class="post-date">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+          </span>
+          {{- if .Params.tags }}
+          <div class="entry-tags">
+            {{- range .Params.tags }}
+            <a href="/tags/{{ . | urlize }}/" class="tag-link">#{{ . }}</a>
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+      </footer>
+    </div>
+    <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+
+{{- end }}

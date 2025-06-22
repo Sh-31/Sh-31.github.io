@@ -1,0 +1,54 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+
+<div class="projects-grid">
+    {{- range .Pages }}    <article class="project-card">
+        <a href="{{ .Permalink }}" class="project-card-link">            {{- if .Params.cover.image }}
+            <div class="project-image">
+                <img src="{{ .Params.cover.image | absURL }}" alt="{{ .Title }}">
+            </div>
+            {{- end }}
+            <div class="project-content">
+                <h2>{{ .Title }}</h2>
+                {{- if .Params.tags }}
+                <div class="project-tags">
+                    {{- range .Params.tags }}
+                    <span class="project-tag">{{ . }}</span>
+                    {{- end }}
+                </div>
+                {{- end }}
+                {{- if .Description }}
+                <p class="description">{{ .Description }}</p>
+                {{- end }}
+            </div>
+        </a>
+        <div class="project-links">
+            {{- if .Params.projectLinks.demo }}
+            <a href="{{ .Params.projectLinks.demo }}" class="project-link demo" target="_blank" rel="noopener noreferrer">Demo</a>
+            {{- end }}
+            {{- if .Params.projectLinks.repo }}
+            <a href="{{ .Params.projectLinks.repo }}" class="project-link repo" target="_blank" rel="noopener noreferrer">Repo</a>
+            {{- end }}
+            {{- if .Params.projectLinks.report }}
+            <a href="{{ .Params.projectLinks.report }}" class="project-link report" target="_blank" rel="noopener noreferrer">Report</a>
+            {{- end }}
+            {{- if .Params.projectLinks.paper }}
+            <a href="{{ .Params.projectLinks.paper }}" class="project-link paper" target="_blank" rel="noopener noreferrer">Arxiv</a>
+            {{- end }}
+            {{- if .Params.projectLinks.space }}
+            <a href="{{ .Params.projectLinks.space }}" class="project-link space" target="_blank" rel="noopener noreferrer">Space</a>
+            {{- end }}
+        </div>
+    </article>
+    {{- end }}
+</div>
+
+{{- end }}

@@ -1,0 +1,31 @@
+.profile_description {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.main {
+    margin-bottom: -25px; /* Moves footer up by 100px */
+    position: relative;
+    min-height: calc(100vh - 200px); /* Adjust the total height to account for footer */
+}
+
+.footer {
+    padding-top: 20px; /* Reduced padding to help move it up */
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/* Control width of project pages */
+.post-single {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.post-content {
+    max-width: 100%;
+    line-height: 1.8;
+}

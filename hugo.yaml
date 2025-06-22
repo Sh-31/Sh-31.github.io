@@ -1,0 +1,101 @@
+baseURL: "https://sh-31.github.io"
+title: "Sherif Ahmed"
+languageCode: en-us
+theme: ["PaperMod"]
+ignoreLogs: ['warning-goldmark-raw-html']
+
+pagination:
+  pagerSize: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Sherif Ahmed - Portfolio"
+  description: "Machine Learning Engineer Portfolio"
+  keywords: [Portfolio, Machine Learning, Data Science, AI, Python, Deep Learning]
+  author: "Sherif Ahmed"
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # Profile mode for portfolio homepage
+  profileMode:
+    enabled: true
+    title: "Sherif Ahmed"
+    subtitle: "Applied Machine Learning Engineer | AI Engineer | Data Scientist"
+    content: "HI👋 I’m Sherif Ahmed, a Machine Learning Engineer with a degree in Computer Science with a strong background in AI, deep learning, NLP and Computer Vision. I’m passionate about building intelligent systems that solve real-world problems."
+    imageUrl: "profile.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: "Sherif Ahmed"
+    buttons:
+      - name: My Projects
+        url: /projects/
+
+      - name: Resume
+        url: https://drive.google.com/file/d/12lQqhBjQax2Wm5HGM5yJbETTdEA17nkR/view?usp=sharing
+      
+      - name: About Me
+        url: /about/
+      
+   
+  socialIcons:
+    - name: github
+      url: "https://github.com/Sh-31"
+    - name: linkedin
+      url: "https://linkedin.com/in/sh31x"
+    - name: email
+      url: "mailto:sherif201665@gmail.com"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: 
+      weight: 10
+    
+    - identifier: projects
+      name: My Projects
+      url: /projects/
+      weight: 20  
+    
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 30  
+
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 40
+  
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true

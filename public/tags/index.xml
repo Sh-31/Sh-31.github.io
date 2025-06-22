@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Sherif Ahmed</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Sherif Ahmed</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic-System</title>
+      <link>http://localhost:1313/tags/agentic-system/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agentic-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async</title>
+      <link>http://localhost:1313/tags/async/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human-in-the-Loop</title>
+      <link>http://localhost:1313/tags/human-in-the-loop/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/human-in-the-loop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langgraph</title>
+      <link>http://localhost:1313/tags/langgraph/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/langgraph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>http://localhost:1313/tags/rag/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection-Agent</title>
+      <link>http://localhost:1313/tags/reflection-agent/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reflection-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CVPR-2016</title>
+      <link>http://localhost:1313/tags/cvpr-2016/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cvpr-2016/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Training</title>
+      <link>http://localhost:1313/tags/distributed-training/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/distributed-training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Person-Recognition</title>
+      <link>http://localhost:1313/tags/multi-person-recognition/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/multi-person-recognition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paper-Implementation</title>
+      <link>http://localhost:1313/tags/paper-implementation/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/paper-implementation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spatial-Temporal</title>
+      <link>http://localhost:1313/tags/spatial-temporal/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spatial-temporal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Torch</title>
+      <link>http://localhost:1313/tags/torch/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/torch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Stage Arch</title>
+      <link>http://localhost:1313/tags/two-stage-arch/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/two-stage-arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attention Mechanism</title>
+      <link>http://localhost:1313/tags/attention-mechanism/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/attention-mechanism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beam-Search</title>
+      <link>http://localhost:1313/tags/beam-search/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/beam-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CNN</title>
+      <link>http://localhost:1313/tags/cnn/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/tags/nlp/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNN</title>
+      <link>http://localhost:1313/tags/rnn/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teacher Forcing</title>
+      <link>http://localhost:1313/tags/teacher-forcing/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/teacher-forcing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EDA</title>
+      <link>http://localhost:1313/tags/eda/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Focal-Loss</title>
+      <link>http://localhost:1313/tags/focal-loss/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/focal-loss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imbalanced-Data</title>
+      <link>http://localhost:1313/tags/imbalanced-data/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/imbalanced-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Random-Forest</title>
+      <link>http://localhost:1313/tags/random-forest/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/random-forest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smote</title>
+      <link>http://localhost:1313/tags/smote/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voting-Cls</title>
+      <link>http://localhost:1313/tags/voting-cls/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/voting-cls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Object-Detection</title>
+      <link>http://localhost:1313/tags/object-detection/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/object-detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Object-Tracking</title>
+      <link>http://localhost:1313/tags/object-tracking/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/object-tracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ultralytics</title>
+      <link>http://localhost:1313/tags/ultralytics/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ultralytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YOLOv5</title>
+      <link>http://localhost:1313/tags/yolov5/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/yolov5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

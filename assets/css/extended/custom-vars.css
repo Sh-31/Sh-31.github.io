@@ -1,0 +1,24 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1200px;
+    --main-width: 1000px;
+    --header-height: 60px;
+    --footer-height: 60px;
+}
+
+.main {
+    max-width: var(--main-width);
+    width: 90%;
+}
+
+.nav {
+    max-width: var(--nav-width);
+    width: 90%;
+}
+
+.post-content {
+    width: 90%;
+    max-width: var(--main-width);
+    margin-inline: auto;
+}
