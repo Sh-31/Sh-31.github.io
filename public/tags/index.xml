@@ -4,10 +4,24 @@
     <title>Tags on Sherif Ahmed</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sherif Ahmed</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimizers</title>
+      <link>http://localhost:1313/tags/optimizers/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/optimizers/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agentic-System</title>
       <link>http://localhost:1313/tags/agentic-system/</link>
@@ -104,48 +118,6 @@
       <link>http://localhost:1313/tags/two-stage-arch/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/two-stage-arch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Climate-Change</title>
-      <link>http://localhost:1313/tags/climate-change/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/climate-change/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Green-Tech</title>
-      <link>http://localhost:1313/tags/green-tech/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/green-tech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Renewable-Energy</title>
-      <link>http://localhost:1313/tags/renewable-energy/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/renewable-energy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Solar-Power</title>
-      <link>http://localhost:1313/tags/solar-power/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/solar-power/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sustainability</title>
-      <link>http://localhost:1313/tags/sustainability/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sustainability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wind-Energy</title>
-      <link>http://localhost:1313/tags/wind-energy/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wind-energy/</guid>
       <description></description>
     </item>
     <item>

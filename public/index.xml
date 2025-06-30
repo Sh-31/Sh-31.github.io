@@ -4,10 +4,17 @@
     <title>Sherif Ahmed</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Sherif Ahmed</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Warmup the Learning Rate?</title>
+      <link>http://localhost:1313/blogs/why-warmup-the-learning-rate/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/why-warmup-the-learning-rate/</guid>
+      <description>In this blog, I will try break down the findings from the paper “Why Warmup the Learning Rate? Underlying Mechanisms and Improvements” and explain how warm-up helps stabilize training by reducing gradient sharpness and enabling the use of higher learning rates.</description>
+    </item>
     <item>
       <title>CourseTA</title>
       <link>http://localhost:1313/projects/courseta/</link>
@@ -28,13 +35,6 @@
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/imacap/</guid>
       <description>ImgCap is an image captioning model designed to automatically generate descriptive captions for images. It has two versions one based on a CNN-LSTM architecture, and the other an enhanced version that integrates a CNN-LSTM with an Attention mechanism. To further enhance the quality and coherence of generated captions, beam search is implemented during the inference stage.</description>
-    </item>
-    <item>
-      <title>The Future of Sustainable Energy</title>
-      <link>http://localhost:1313/blogs/demy-blog/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/demy-blog/</guid>
-      <description>Exploring renewable energy technologies and their impact on global climate change. This comprehensive guide covers solar, wind, and hydroelectric power innovations that are reshaping our energy landscape for a more sustainable future.</description>
     </item>
     <item>
       <title>Credit Card Fraud Detection</title>

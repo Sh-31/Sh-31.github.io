@@ -1,5 +1,21 @@
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="path/to/your/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      });
+    </script>
+</head>
+<body>
 <header class="header" style="position: sticky; top: 0; z-index: 100; background: var(--theme); box-shadow: 0 2px 4px rgba(0,0,0,0.01);">
     <nav class="nav">        <div class="logo">
             <a href="{{ "/" | absLangURL }}" class="header-terminal">
@@ -29,3 +45,7 @@
         </ul>
     </nav>
 </header>
+<!-- Your content goes here -->
+
+</body>
+</html>
