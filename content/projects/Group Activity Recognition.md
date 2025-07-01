@@ -205,10 +205,10 @@ For further information about dataset, you can check out the paper author's repo
 The following confusion matrices from Baseline 5 and Baseline 6 reveal some interesting insights:
 
 #### Baseline 5 Confusion Matrix
-<img src="modeling/baseline%205/outputs/Group_Activity_Baseline_5_eval_on_testset_confusion_matrix.png" alt="Baseline 5 confusion matrix" width="60%">
+<img src="https://raw.githubusercontent.com/Sh-31/Group-Activity-Recognition/refs/heads/main/modeling/baseline%205/outputs/Group_Activity_Baseline_5_eval_on_testset_confusion_matrix.png" alt="Baseline 5 confusion matrix" width="100%">
 
 #### Baseline 6 Confusion Matrix
-<img src="modeling/baseline%206/outputs/Group_Activity_Baseline_6_eval_on_testset_confusion_matrix.png" alt="Baseline 6 confusion matrix" width="60%">
+<img src="https://raw.githubusercontent.com/Sh-31/Group-Activity-Recognition/refs/heads/main/modeling/baseline%206/outputs/Group_Activity_Baseline_6_eval_on_testset_confusion_matrix.png" alt="Baseline 6 confusion matrix" width="100%">
 
 - The most frequent confusions occur between:
   - Right winpoint vs. left winpoint
@@ -221,10 +221,10 @@ This behavior is likely due to the pooling of the 12 players from both teams whe
 When the teams are grouped and processed individually before concatenation, the player position information is retained. This suggests that a more careful handling of player positions could improve model performance, as observed in Baseline 8 and Baseline 9.
 
 #### Baseline 8 Confusion Matrix
-<img src="modeling/baseline%208/outputs/Group_Activity_Baseline_8_eval_on_testset_confusion_matrix.png" alt="Baseline 8 confusion matrix" width="60%">
+<img src="https://raw.githubusercontent.com/Sh-31/Group-Activity-Recognition/refs/heads/main/modeling/baseline%208/outputs/Group_Activity_Baseline_8_eval_on_testset_confusion_matrix.png" alt="Baseline 8 confusion matrix" width="100%">
 
 #### Baseline 9 Confusion Matrix
-<img src="modeling/baseline 9 (end to end)/outputs/Group_Activity_Baseline_9_eval_on_testset_confusion_matrix.png" alt="Baseline 9 confusion matrix" width="60%">
+<img src="https://raw.githubusercontent.com/Sh-31/Group-Activity-Recognition/refs/heads/main/modeling/baseline%209%20(end%20to%20end)/outputs/Group_Activity_Baseline_9_eval_on_testset_confusion_matrix.png" alt="Baseline 9 confusion matrix" width="100%">
 
 --- 
 
