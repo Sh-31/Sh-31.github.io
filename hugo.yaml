@@ -19,10 +19,12 @@ minify:
 params:
   env: production
   title: "Sherif Ahmed - ML Engineer"
+  assets:
+    favicon: "icon.ico"
   description: "HI👋 I’m Sherif Ahmed, a Machine Learning Engineer with a degree in Computer Science with a strong background in AI, deep learning, NLP and Computer Vision. I’m passionate about building intelligent systems that solve real-world problems."
   keywords: [Portfolio, Machine Learning, Data Science, AI, Python, Deep Learning]
   author: "Sherif Ahmed"
-  DateFormat: "January 2, 2025"
+  DateFormat: "January 2, 2006"
   defaultTheme: dark
   disableThemeToggle: true
 
@@ -53,7 +55,7 @@ params:
     imageHeight: 200
     imageTitle: "Sherif Ahmed"
     buttons:
-      - name: My Projects
+      - name: Projects
         url: /projects/
 
       - name: Resume
@@ -79,14 +81,19 @@ menu:
       weight: 10
     
     - identifier: projects
-      name: My Projects
+      name: Projects
       url: /projects/
       weight: 20  
     
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 30
+
     - identifier: blogs
       name: Blogs
       url: /blogs/
-      weight: 30  
+      weight: 35
 
     - identifier: tags
       name: Tags

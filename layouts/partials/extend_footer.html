@@ -1,0 +1,4 @@
+{{ $script := resources.Get "js/experience-timeline.js" }}
+{{ if $script }}
+    <script src="{{ $script.Permalink }}"></script>
+{{ end }}

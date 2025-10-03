@@ -12,7 +12,7 @@ projectLinks:
     demo: ""
     repo: "https://github.com/Sh-31/Group-Activity-Recognition"
     paper: "https://arxiv.org/pdf/1607.02643"
-tags: ["Paper-Implementation", "CVPR-2016", "Distributed-Training", "Torch", "Two-Stage Arch", "Spatial-Temporal", "Multi-Person-Recognition"]    
+tags: ["Paper-Implementation", "CVPR-2016", "Distributed-Training", "Torch", "Two-Stage Arch", "Spatial-Temporal", "Multi-Person-Recognition", "Computer Vision"]    
 ---
 [![Repo](https://img.shields.io/badge/github-repo-black?logo=github&style=for-the-badge&scale=2)](https://github.com/Sh-31/Group-Activity-Recognition)
 

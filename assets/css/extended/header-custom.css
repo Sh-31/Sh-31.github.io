@@ -47,3 +47,11 @@
     font-weight: 600;
     color: var(--primary);
 }
+
+#menu {
+    gap: 5px;
+}
+
+.header-terminal {
+    font-size: 1.2rem !important;
+}

@@ -2,10 +2,11 @@
 title: "Why Warmup the Learning Rate?"
 description: "In this blog, I will try break down the findings from the paper “Why Warmup the Learning Rate? Underlying Mechanisms and Improvements” and explain how warm-up helps stabilize training by reducing gradient sharpness and enabling the use of higher learning rates."
 date: 2025-06-30
-draft: false
+mathjax: true
 weight: 1
 cover:
     image: "blogs/warm-up/cover.png"
+    alt: "Why Warmup the Learning Rate?"
     hidden: false
 tags: ["Deep Learning", "Optimizers"]   
 ---

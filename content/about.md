@@ -6,21 +6,31 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowWordCount: false
 ShowReadingTime: false
+author: ""
 cover:
     hidden: true
 ---
-
-# Sherif Ahmed - About Me
 
 ## Summary
 
 I'm Sherif Ahmed, a Machine Learning Engineer with a strong background in AI, deep learning, and computer vision from Egypt. I recently graduated with a degree in Computer Science and Artificial Intelligence from Fayoum University.
 
+## Experience
+
+### AI Engineer Intern — CyberTalents  
+**07.2025 - 10.2025 | Remote**
+
+- Led a small team of interns in collaboration with the Research and Technical Writing departments to develop utilities with **LLMs** for:
+  - **CTF write-ups generation**  
+  - **Internal service automation** to improve team workflows and productivity
+- Designed and implemented **data cleaning pipelines** and developed workflows for **synthetic dataset generation**
+- Conducted **instruction fine-tuning of LLMs** using **LitGPT**, optimizing models for **domain-specific tasks**
+
 ## Technical Skills
 
 ### Programming Languages & Frameworks
 - **Languages:** Python, C++, SQL
-- **AI/ML Frameworks:** PyTorch, Sklearn, Transformers, LangChain, LangGraph
+- **AI/ML Frameworks:** PyTorch, LitGPT, Sklearn, Transformers, LangChain, LangGraph
 - **Computer Vision:** OpenCV, Ultralytics
 - **Development:** FastAPI, Git, GitHub, Docker, Gradio
 - **Databases:** MySQL
@@ -41,7 +51,7 @@ I'm Sherif Ahmed, a Machine Learning Engineer with a strong background in AI, de
 
 ### Bachelor of Science in Computer Science and Artificial Intelligence
 **Fayoum University** | *September 2020 - June 2024*
-- **GPA:** 3.3/4.0 (Honours Degree)
+- **GPA:** 3.2/4.0 (Honours Degree)
 - **Location:** Fayoum, Egypt
 - **Relevant Coursework:** Machine Learning, Artificial Intelligence, Data Structures & Algorithms, Probability & statistics, Image Processing, Signal processing.
 

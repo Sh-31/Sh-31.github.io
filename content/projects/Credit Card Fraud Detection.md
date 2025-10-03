@@ -11,7 +11,7 @@ cover:
 projectLinks:
     report: "https://github.com/Sh-31/Credit-Card-Fraud-Detection/blob/main/Credit%20Card%20Fraud%20Detection%20Report.pdf"
     repo: "https://github.com/Sh-31/Credit-Card-Fraud-Detection"
-tags: ["Imbalanced-Data", "Smote", "Focal-Loss", "Random-Forest", "Voting-Cls", "EDA"]    
+tags: ["Imbalanced-Data", "Smote", "Focal-Loss", "Random-Forest", "Voting-cls", "EDA"]    
 ---
 
 [![Repo](https://img.shields.io/badge/github-repo-black?logo=github&style=for-the-badge&scale=2)](https://github.com/Sh-31/Credit-Card-Fraud-Detection) [![Report](https://img.shields.io/badge/pdf-report-red?logo=adobe-acrobat-reader&style=for-the-badge&scale=2)](https://github.com/Sh-31/Credit-Card-Fraud-Detection/blob/main/Credit%20Card%20Fraud%20Detection%20Report.pdf)

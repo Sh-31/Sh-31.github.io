@@ -7,9 +7,28 @@
 }
 
 .main {
-    margin-bottom: -25px; /* Moves footer up by 100px */
+    margin-bottom: -25px;
     position: relative;
-    min-height: calc(100vh - 200px); /* Adjust the total height to account for footer */
+    min-height: calc(100vh - 200px);  /* Adjust the total height to account for footer */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav #menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px !important;
+}
+
+.nav #menu li {
+    margin: 0 !important;
+    padding: 0;
 }
 
 .footer {

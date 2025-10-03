@@ -11,7 +11,7 @@ cover:
 projectLinks:
     demo: "https://www.youtube.com/watch?v=oaLq27eTU30"
     repo: "https://github.com/Sh-31/Tennis-Analysis-System"
-tags: ["Object-Detection", "Object-Tracking", "YOLOv5", "CNN", "Ultralytics", "Torch"]    
+tags: ["Object-Detection", "Object-Tracking", "YOLOv5", "CNN", "Ultralytics", "Torch", "Computer Vision"]    
 ---
 
 [![Repo](https://img.shields.io/badge/github-repo-black?logo=github&style=for-the-badge&scale=2)](https://github.com/Sh-31/Tennis-Analysis-System)

@@ -12,7 +12,7 @@ cover:
 projectLinks:
     repo: "https://github.com/Sh-31/CourseTA"
     demo: "https://www.youtube.com/watch?v=w-8KdO5Tlbc"
-tags: ["Agentic-System", "Langgraph", "RAG", "LLMs", "Human-In-The-Loop", "Async", "Reflection-agent"]
+tags: ["Agentic-System", "Langgraph", "RAG", "LLMs", "Human-In-The-Loop", "Async", "Reflection-agent", "NLP"]
 ---
 
 [![Repo](https://img.shields.io/badge/github-repo-black?logo=github&style=for-the-badge&scale=2)](https://github.com/Sh-31/CourseTA)
