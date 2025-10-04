@@ -2,120 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sherif Ahmed</title>
-    <link>http://localhost:38883/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Sherif Ahmed</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:38883/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Warmup the Learning Rate?</title>
-      <link>http://localhost:38883/blogs/why-warmup-the-learning-rate/</link>
+      <link>http://localhost:1313/blogs/why-warmup-the-learning-rate/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/blogs/why-warmup-the-learning-rate/</guid>
+      <guid>http://localhost:1313/blogs/why-warmup-the-learning-rate/</guid>
       <description>In this blog, I will try break down the findings from the paper “Why Warmup the Learning Rate? Underlying Mechanisms and Improvements” and explain how warm-up helps stabilize training by reducing gradient sharpness and enabling the use of higher learning rates.</description>
     </item>
     <item>
       <title>CourseTA</title>
-      <link>http://localhost:38883/projects/courseta/</link>
+      <link>http://localhost:1313/projects/courseta/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/courseta/</guid>
+      <guid>http://localhost:1313/projects/courseta/</guid>
       <description>An agent-based educational system using FastAPI, LangChain, and LangGraph in a microservice architecture. Implemented real-time async endpoints, integrated Whisper for audio/video transcription, and PyMuPDF for PDF parsing. Built a RAG-based QA pipeline with embedding-based retrieval, and AI agents for question generation, summarization, and feedback refinement. Optimized for scalable human-in-the-loop workflows and efficient content transformation across diverse formats.</description>
     </item>
     <item>
       <title>DETR End-to-End Object Detection with Transformers</title>
-      <link>http://localhost:38883/blogs/detection-transformer/</link>
+      <link>http://localhost:1313/blogs/detection-transformer/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/blogs/detection-transformer/</guid>
+      <guid>http://localhost:1313/blogs/detection-transformer/</guid>
       <description>The Detection Transformer (DETR) represents a novel, end-to-end approach to object detection, reframing the task as a set prediction problem. This architecture relies on a transformer encoder-decoder structure and a unique assignment strategy involving the Hungarian matching algorithm, enabling the model to bypass post-processing steps like Non-Maximal Suppression (NMS) and reliance on anchor design.</description>
     </item>
     <item>
       <title>Group Activity Recognition</title>
-      <link>http://localhost:38883/projects/group-activity-recognition/</link>
+      <link>http://localhost:1313/projects/group-activity-recognition/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/group-activity-recognition/</guid>
+      <guid>http://localhost:1313/projects/group-activity-recognition/</guid>
       <description>A modern implementation implemented a Hierarchical Deep Temporal Model for Group Activity Recognition, based on the CVPR 2016 paper. Achieved 93% accuracy using a two-stage LSTM architecture to recognize multi-person activities. Conducted ablation studies to evaluate the contributions of various model components and compared performance against 8 baseline models.</description>
     </item>
     <item>
       <title>Relational Group Activity Recognition</title>
-      <link>http://localhost:38883/projects/rgar/</link>
+      <link>http://localhost:1313/projects/rgar/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/rgar/</guid>
+      <guid>http://localhost:1313/projects/rgar/</guid>
       <description>Implemented a Hierarchical Relational Network architecture for Group Activity Recognition and Retrieval, based on the ECCV 2018 paper. This implementation models inter-person relations and hierarchical temporal dynamics using Relational Layer (Graph Relational Layer). Ablation experiments were conducted to assess the impact of relation modeling, attention mechanisms (Graph Attention Operator), and hierarchical layers.</description>
     </item>
     <item>
       <title>ImgCap</title>
-      <link>http://localhost:38883/projects/imacap/</link>
+      <link>http://localhost:1313/projects/imacap/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/imacap/</guid>
+      <guid>http://localhost:1313/projects/imacap/</guid>
       <description>ImgCap is an image captioning model designed to automatically generate descriptive captions for images. It has two versions one based on a CNN-LSTM architecture, and the other an enhanced version that integrates a CNN-LSTM with an Attention mechanism. To further enhance the quality and coherence of generated captions, beam search is implemented during the inference stage.</description>
     </item>
     <item>
       <title>Credit Card Fraud Detection</title>
-      <link>http://localhost:38883/projects/credit-card-fraud-detection/</link>
+      <link>http://localhost:1313/projects/credit-card-fraud-detection/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/credit-card-fraud-detection/</guid>
+      <guid>http://localhost:1313/projects/credit-card-fraud-detection/</guid>
       <description>Credit card fraud detection project using a highly unbalanced Kaggle dataset of 284,807 transactions with only 492 frauds. To address the imbalance the project implements a voting classifier and a neural network with focal loss in PyTorch achieving an F1 score of 86% and a PR AUC of 85%</description>
     </item>
     <item>
       <title>Tennis Analysis System</title>
-      <link>http://localhost:38883/projects/tennis-analysis-system/</link>
+      <link>http://localhost:1313/projects/tennis-analysis-system/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/tennis-analysis-system/</guid>
+      <guid>http://localhost:1313/projects/tennis-analysis-system/</guid>
       <description>Tennis-Analysis-System is a system that analyzes tennis matches and provides player statistics and mini court visualizations.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:38883/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m Sherif Ahmed, a Machine Learning Engineer with a strong background in AI, deep learning, and computer vision from Egypt. I recently graduated with a degree in Computer Science and Artificial Intelligence from Fayoum University.&lt;/p&gt;
-&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
-&lt;h3 id=&#34;ai-engineer-intern--cybertalents&#34;&gt;AI Engineer Intern — CyberTalents&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;07.2025 - 10.2025 | Remote&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Led a small team of interns in collaboration with the Research and Technical Writing departments to develop utilities with &lt;strong&gt;LLMs&lt;/strong&gt; for:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CTF write-ups generation&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Internal service automation&lt;/strong&gt; to improve team workflows and productivity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Designed and implemented &lt;strong&gt;data cleaning pipelines&lt;/strong&gt; and developed workflows for &lt;strong&gt;synthetic dataset generation&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Conducted &lt;strong&gt;instruction fine-tuning of LLMs&lt;/strong&gt; using &lt;strong&gt;LitGPT&lt;/strong&gt;, optimizing models for &lt;strong&gt;domain-specific tasks&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
-&lt;h3 id=&#34;programming-languages--frameworks&#34;&gt;Programming Languages &amp;amp; Frameworks&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Python, C++, SQL&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI/ML Frameworks:&lt;/strong&gt; PyTorch, LitGPT, Sklearn, Transformers, LangChain, LangGraph&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Computer Vision:&lt;/strong&gt; OpenCV, Ultralytics&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; FastAPI, Git, GitHub, Docker, Gradio&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; MySQL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;machine-learning--ai&#34;&gt;Machine Learning &amp;amp; AI&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Deep Learning:&lt;/strong&gt; CNNs, RNNs, GANs, GAT, VAE, Transformers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Neural Networks:&lt;/strong&gt; LSTM architectures, Attention mechanisms, Hierarchical models.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Computer Vision:&lt;/strong&gt; Image Processing, Object Detection, Player Tracking, Keypoint Detection.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;NLP:&lt;/strong&gt; Text Processing, Text Summarization, RAG-based QA systems.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;core-knowledge-areas&#34;&gt;Core Knowledge Areas&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem Solving:&lt;/strong&gt; Algorithmic thinking, Competitive programming&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Software Engineering:&lt;/strong&gt; Object-Oriented Programming (OOP), Data Structures &amp;amp; Algorithms&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Signal processing, Image processing, Parallel processing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Soft Skills:&lt;/strong&gt; Adaptability, Communication, Critical Thinking, Collaboration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;h3 id=&#34;bachelor-of-science-in-computer-science-and-artificial-intelligence&#34;&gt;Bachelor of Science in Computer Science and Artificial Intelligence&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Fayoum University&lt;/strong&gt; | &lt;em&gt;September 2020 - June 2024&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m Sherif Ahmed, a Machine Learning Engineer with expertise in Computer Vision, Natural Language Processing, and Large
+Language Models (LLMs). Delivered production-ready AI and ML solutions through internships at CyberTalents
+and various freelance projects I have worked on, with a focus on implementing and optimizing systems for
+efficiency and scalability. Skilled in Python, PyTorch, LangGraph, LangChain, SQL, and Docker with a strong track
+record in conducting research and driving cross-functional collaboration to deliver impactful AI solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Engineer Intern</title>
-      <link>http://localhost:38883/experience/cybertalents/</link>
+      <link>http://localhost:1313/experience/cybertalents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/experience/cybertalents/</guid>
+      <guid>http://localhost:1313/experience/cybertalents/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Led a small team of interns in collaboration with the Research and Technical Writing departments to develop utilities LLMs for CTF Write-ups generation.&lt;/p&gt;

@@ -13,7 +13,11 @@ cover:
 
 ## Summary
 
-I'm Sherif Ahmed, a Machine Learning Engineer with a strong background in AI, deep learning, and computer vision from Egypt. I recently graduated with a degree in Computer Science and Artificial Intelligence from Fayoum University.
+I'm Sherif Ahmed, a Machine Learning Engineer with expertise in Computer Vision, Natural Language Processing, and Large
+Language Models (LLMs). Delivered production-ready AI and ML solutions through internships at CyberTalents
+and various freelance projects I have worked on, with a focus on implementing and optimizing systems for
+efficiency and scalability. Skilled in Python, PyTorch, LangGraph, LangChain, SQL, and Docker with a strong track
+record in conducting research and driving cross-functional collaboration to deliver impactful AI solutions.
 
 ## Experience
 
@@ -25,6 +29,14 @@ I'm Sherif Ahmed, a Machine Learning Engineer with a strong background in AI, de
   - **Internal service automation** to improve team workflows and productivity
 - Designed and implemented **data cleaning pipelines** and developed workflows for **synthetic dataset generation**
 - Conducted **instruction fine-tuning of LLMs** using **LitGPT**, optimizing models for **domain-specific tasks**
+
+### Computer Vision Engineer — Freelance  
+**06.2025 - 07.2025 | Remote**
+- Built a **vision system** for **automated form data extraction** from images into **structured JSON outputs**.
+- Developed a custom vision pipeline:
+  - Utilizing **YOLOv8 for element detection** to localize buttons, text boxes, and image form fields.
+  - **Fine-tuned the Qwen2.5-VL model** for OCR to extract and convert form content into structured JSON format.
+- Conducted **comparative benchmarking against Gemini API** showing more **cost-efficient and higher-accurate** solution.
 
 ## Technical Skills
 

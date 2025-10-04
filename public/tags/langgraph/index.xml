@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Langgraph on Sherif Ahmed</title>
-    <link>http://localhost:38883/tags/langgraph/</link>
+    <link>http://localhost:1313/tags/langgraph/</link>
     <description>Recent content in Langgraph on Sherif Ahmed</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:38883/tags/langgraph/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/langgraph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CourseTA</title>
-      <link>http://localhost:38883/projects/courseta/</link>
+      <link>http://localhost:1313/projects/courseta/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/projects/courseta/</guid>
+      <guid>http://localhost:1313/projects/courseta/</guid>
       <description>An agent-based educational system using FastAPI, LangChain, and LangGraph in a microservice architecture. Implemented real-time async endpoints, integrated Whisper for audio/video transcription, and PyMuPDF for PDF parsing. Built a RAG-based QA pipeline with embedding-based retrieval, and AI agents for question generation, summarization, and feedback refinement. Optimized for scalable human-in-the-loop workflows and efficient content transformation across diverse formats.</description>
     </item>
   </channel>

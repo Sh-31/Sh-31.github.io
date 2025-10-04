@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Optimizers on Sherif Ahmed</title>
-    <link>http://localhost:38883/tags/optimizers/</link>
+    <link>http://localhost:1313/tags/optimizers/</link>
     <description>Recent content in Optimizers on Sherif Ahmed</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:38883/tags/optimizers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/optimizers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Warmup the Learning Rate?</title>
-      <link>http://localhost:38883/blogs/why-warmup-the-learning-rate/</link>
+      <link>http://localhost:1313/blogs/why-warmup-the-learning-rate/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38883/blogs/why-warmup-the-learning-rate/</guid>
+      <guid>http://localhost:1313/blogs/why-warmup-the-learning-rate/</guid>
       <description>In this blog, I will try break down the findings from the paper “Why Warmup the Learning Rate? Underlying Mechanisms and Improvements” and explain how warm-up helps stabilize training by reducing gradient sharpness and enabling the use of higher learning rates.</description>
     </item>
   </channel>
