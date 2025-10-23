@@ -4,7 +4,7 @@
     <title>Experiences on Sherif Ahmed</title>
     <link>http://localhost:1313/experience/</link>
     <description>Recent content in Experiences on Sherif Ahmed</description>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.1</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,18 +14,19 @@
       <guid>http://localhost:1313/experience/cybertalents/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Led a small team of interns in collaboration with the Research and Technical Writing departments to develop utilities LLMs for CTF Write-ups generation.&lt;/p&gt;
+&lt;p&gt;Coordinated a team of 4 interns in collaboration with the Research and Technical Writing departments to develop utilities LLMs for CTF Write-ups generation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Designed and implemented data cleaning pipelines and developed workflows for generating synthetic datasets.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Conducted instruction fine-tuning of LLMs using LitGPT, optimizing models for domain-specific tasks.&lt;/p&gt;
+&lt;p&gt;Conducted instruction fine-tuned LLMs for domain-specific tasks using LitGPT and Azure OpenAI fine-tuning services.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Worked on system integration and internal service automation to improve team workflows and productivity.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;
+&lt;p&gt;Deployed fine-tuned models on Azure Cloud infrastructure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
